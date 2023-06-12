@@ -15,10 +15,10 @@ public class Main {
 
         HRManagementSystem hr=new HRManagementSystem();
         // Display employee details
-//      hr.displayEmployees(employees);
+        hr.displayEmployees(employees);
 //        //Sort by country and then display
-//      hr.sortByCountry(employees);
-//      hr.displayEmployees(employees);
+         hr.sortByCountry(employees);
+         hr.displayEmployees(employees);
 //
 
         // Create separate lists for even and odd employee numbers
