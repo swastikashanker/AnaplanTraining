@@ -23,8 +23,16 @@ public class HRManagementSystem {
     }
 
     public  void sortById(ArrayList<Employee> employees) {
-        employees.removeIf(employee -> employee.getYearsOfExperience() >= 1);
-        employees.sort(Comparator.comparing(Employee::getEid));
+//        employees.removeIf(employee -> employee.getYearsOfExperience() >= 1);
+//        employees.sort(Comparator.comparing(Employee::getEid));
+        List<Employee> toSort = new ArrayList<>();
+        for (Employee employee : employees) {
+            toSort.add(employee);
+        }
+        toSort.sort(Comparator.comparing(Employee::getEid));
+        for (Employee employee : toSort) {
+            System.out.println(employee.getEid());
+        }
     }
 
     public  List<Employee> createList(ArrayList<Employee> employees, boolean isEven) {

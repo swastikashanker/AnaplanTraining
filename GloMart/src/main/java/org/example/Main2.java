@@ -17,8 +17,8 @@ public class Main2 {
        hr.sortById(employees2);
 
         // Display employee IDs
-        for (Employee employee : employees2) {
-            System.out.println(employee.getEid());
+//        for (Employee employee : employees2) {
+//            System.out.println(employee.getEid());
         }
     }
-}
+
