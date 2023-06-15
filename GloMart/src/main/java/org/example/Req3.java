@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class Main2 {
+public class Req3 {
     public static void main(String[] args) {
         ArrayList<Employee> employees2 = new ArrayList<>();
         // Create employees and add them to the ArrayList
