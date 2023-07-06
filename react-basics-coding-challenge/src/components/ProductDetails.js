@@ -15,7 +15,7 @@ const ProductDetails = () => {
         <div className="brand">
             <p>ARTIART</p>
           </div>
-        <div className="buutons">
+        <div className="buttons">
         <button className="add-one-button">+</button>1
         <button className="add-minus-one-button">-</button>
         </div>
@@ -33,12 +33,11 @@ const ProductDetails = () => {
        <p>CONVENIENT : Designed for ultimate portability & comfort with one touch flip over lid mechanism which ensures spill proof performance. Moderate size rim for smooth flow of liquids in apt volume. Wide mouth ensures ease of filling with ice(if required) and also facilitates cleaning the interior, for hygiene.
        </p> <p>INNOVATIVE : Clever grip-pad suction technology reduces spillage occurrences as it will not tip over even if you accidently knock into it. Pick up easily by vertical lift like any other cup and it will detach itself easily and quickly without any effort.
        </p> <p>QUALITY : Stay healthy with our BPA free and non-toxic cups as our each and every product is constructed from 100% food grade materials. These premium grade cups won't rust, retain or transfer flavors.
-       </p><p>Capacity: 330ml
-       </p><p>Hot & Cold- 2 Hours
-       </p> <p> Item Weight : 280 g
-       </p><p>Item Dimensions LxWxH : 20.5 x 8.5 x 8.5 Centimeters</p> 
-        </p>
-        </div>
+       </p>Capacity: 330ml
+        Hot & Cold- 2 Hours
+        Item Weight : 280 g
+        Item Dimensions LxWxH : 20.5 x 8.5 x 8.5 Centimeters</p> 
+      </div>
       </div>
       </div>
   );
