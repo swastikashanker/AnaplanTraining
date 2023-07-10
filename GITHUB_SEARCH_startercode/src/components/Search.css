@@ -1,0 +1,38 @@
+:root{
+    --orange1:#ff9999;
+    --orange2:#fd5e53;
+    --orange3:#ffa368;
+    --orange4:#f53b2e;
+    
+
+}
+body{
+    background-color: var(--orange3);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.spinner{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 30px solid black;
+    border-top-color: #ffa368;
+    animation: spin 0.7s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -80px;
+    margin-top: -120px;
+
+
+}
+
+@keyframes spin{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
